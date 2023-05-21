@@ -1,6 +1,7 @@
 import React from "react";
 import { StoryFn, Meta } from "@storybook/react";
 import ErrorDiv from "./ErrorDiv";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
