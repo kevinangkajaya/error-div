@@ -35,6 +35,8 @@ export default [
                     /\.test.((js|jsx|ts|tsx))$/,
                     // Exclude story files
                     /\.stories.((js|jsx|ts|tsx|mdx))$/,
+                    // Exclude stories folder
+                    "src/stories/*",
                 ],
                 tsconfig: "./tsconfig.json"
             }),

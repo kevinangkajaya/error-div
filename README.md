@@ -1,3 +1,9 @@
 # Introduction
-- Template to create a new react template library.
-- To create a new library manually, refer to https://github.com/kevinangkajaya/package-react-test.
+Shows div with error message.
+
+# How to Use
+Install with `npm install @kevinangkajaya/error-div`.
+Then just add the code below. Replace "error_reason" with the desired error string.
+```
+<ErrorDiv error={error_reason} />
+```
