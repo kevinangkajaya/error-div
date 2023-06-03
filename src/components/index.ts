@@ -1,1 +1,1 @@
-export { default as ErrorDiv } from "./ErrorDiv";
+export { default } from "./ErrorDiv";

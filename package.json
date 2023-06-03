@@ -1,9 +1,13 @@
 {
   "name": "@kevinangkajaya/error-div",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kevinangkajaya"
+    "access": "public"
   },
-  "version": "1.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinangkajaya/error-div.git"
+  },
+  "version": "0.0.2",
   "description": "",
   "scripts": {
     "rollup": "rollup -c",
